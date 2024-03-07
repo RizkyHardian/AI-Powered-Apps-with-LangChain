@@ -8,7 +8,7 @@ import os
 import gradio as gr
 
 # Mengatur LLM
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "YOUR API KEY"
 llm = ChatOpenAI(temperature=0.9)
 
 def handle_complaint(komplain: str) -> str:

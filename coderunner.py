@@ -8,7 +8,7 @@ from langchain_experimental.tools import PythonREPLTool
 from langchain_experimental.utilities import PythonREPL
 import os
 
-openai_api_key = "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"
+openai_api_key = "YOUR API KEY"
 
 os.environ["OPENAI_API_KEY"] = openai_api_key
 
